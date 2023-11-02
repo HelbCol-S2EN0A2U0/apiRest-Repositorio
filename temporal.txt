@@ -26,3 +26,20 @@ Content-Type: application/json
 
 ###
 DELETE http://localhost:3000/api/users/65426b5bcfcd10b20461c30a HTTP/1.1
+
+
+
+
+
+
+
+_id
+65440e0013c482081e216295
+name
+"Fernando Rojas"
+age
+47
+email
+"ferchorojas@gmail.com"
+__v
+0

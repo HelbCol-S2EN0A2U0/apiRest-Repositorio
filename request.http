@@ -3,10 +3,27 @@ POST http://localhost:3000/api/user HTTP/1.1
 Content-Type: application/json
 
 {
-    "name":"Lilina Rojas",
-    "age":"25",
-    "email":"lilianR.25@gmail.com"
+    "name":"Fernando Rojas",
+    "age":"47",
+    "email":"ferchorojas@gmail.com"
 }
 
+###
+GET http://localhost:3000/api/users HTTP/1.1
 
+###
+GET http://localhost:3000/api/users/65440e0013c482081e216295 HTTP/1.1
+
+###
+PUT http://localhost:3000/api/users/65440e0013c482081e216295 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Miguel Fernando Rojas Gacha",
+    "age": "49",
+    "email": "fercho1986-rojas@zmail.com"
+}
+
+###
+DELETE http://localhost:3000/api/users/65440c9813c482081e216293 HTTP/1.1
 

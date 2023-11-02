@@ -1,0 +1,39 @@
+
+git user hardsog
+git version
+git version 2.42.0.windows.2
+PS C:\Helberthr_Local\2023\API Rest\API-Mongo-Monkey> git config --global user.name "hardsog"
+PS C:\Helberthr_Local\2023\API Rest\API-Mongo-Monkey> git config --global user.email "helberthr.rojas@hotmail.com"
+
+PRIMER COMMIT unicamente para iniciar con el proyeccto en git
+PS C:\Helberthr_Local\2023\API Rest\API-Mongo-Monkey> git init
+Initialized empty Git repository in C:/Helberthr_Local/2023/API Rest/API-Mongo-Monkey/.git/
+PS C:\Helberthr_Local\2023\API Rest\API-Mongo-Monkey> 
+en la carpeta del proyecto se aagrega la carpeta .git
+
+ahora pasamos al STAGE AREA //valida si hay cambios en los archivos fuente
+PS C:\Helberthr_Local\2023\API Rest\API-Mongo-Monkey> git add .
+warning: in the working copy of 'node_modules/mongoose/lib/helpers/pluralize.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/mongoose/lib/helpers/populate/assignRawDocsToIdStructure.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/mongoose/lib/helpers/populate/assignVals.js', LF will be replaced by CRLF the next time Git touches it
+
+
+AHORA SI VAMOS A HACER EL PRIMER COMMIT 
+PS C:\Helberthr_Local\2023\API Rest\API-Mongo-Monkey> git commit -m "El primer commit"
+create mode 100644 node_modules/mongodb/lib/operations/command.js.map
+ create mode 100644 node_modules/mongodb/lib/operations/common_functions.js
+ create mode 100644 node_modules/mongodb/lib/operations/common_functions.js.map
+ create mode 100644 node_modules/mongodb/lib/operations/count.js
+ create mode 100644 node_modules/mongodb/lib/operations/count.js.map
+
+//Mostrar los commits que se han hecho
+PS C:\Helberthr_Local\2023\API Rest\API-Mongo-Monkey> git log --oneline
+d485c25 (HEAD -> master) El commit inicial
+
+https://www.youtube.com/watch?v=L_lWQZNhN7w&t=1s
+minuto = 17:57
+
+
+
+
+
