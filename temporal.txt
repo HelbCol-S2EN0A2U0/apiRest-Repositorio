@@ -1,0 +1,28 @@
+{
+    "name":"Locura Tellez",
+    "age": "35",
+    "email":"locuraTellez@gemail.com"
+}
+
+# "name": "Luna Mahecha",
+#     "age": 21,
+#     "email": "lunaMahechaVoc@gmail.com"
+
+###
+GET http://localhost:3000/api/users HTTP/1.1
+
+###
+GET http://localhost:3000/api/users/65427405f2d8e0deeb8d321b HTTP/1.1
+
+###
+PUT http://localhost:3000/api/users/654273b3f2d8e0deeb8d3217 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Luna Mahecha",
+    "age": 21,
+    "email": "lunaMahechaVoc@gmail.com"
+}
+
+###
+DELETE http://localhost:3000/api/users/65426b5bcfcd10b20461c30a HTTP/1.1
